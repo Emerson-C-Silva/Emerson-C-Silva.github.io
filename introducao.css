@@ -1,0 +1,19 @@
+.introducao {
+  max-width: 1040px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.titulo-image p {
+  font-size: 1rem;
+  color: #b0b6bd;
+}
+
+@media (max-width: 1070px) {
+  .introducao-img {
+    max-width: 100%;
+    margin: auto 15px;
+  }
+}
