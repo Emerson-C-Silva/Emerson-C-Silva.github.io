@@ -134,6 +134,10 @@
   margin-bottom: 0;
 }
 
+.projeto-concluido {
+  text-decoration: none;
+}
+
 @media (max-width: 895px) {
   .formacao-box {
     grid-template-columns: 1fr;
