@@ -31,4 +31,7 @@
     padding: 15px 10px;
     border-radius: 4px;
   }
+  .menu-header li {
+    margin-top: 10px;
+  }
 }
