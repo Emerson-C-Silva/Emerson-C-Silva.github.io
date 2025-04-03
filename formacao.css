@@ -111,6 +111,11 @@
   left: -2px;
   align-items: center;
 }
+
+.curso-lista::before:hover {
+  height: 120px;
+}
+
 .lista {
   display: flex;
   flex-direction: column;
