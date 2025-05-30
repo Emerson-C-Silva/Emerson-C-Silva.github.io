@@ -86,6 +86,11 @@
   top: -18px;
 }
 
+.ensino::before:hover {
+  width: 150px;
+  transition-property: width;
+}
+
 .cursos {
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +105,7 @@
   padding: 20px;
   position: relative;
 }
-.curso-lista::before {
+.cursos .curso-lista .lista::before {
   content: "";
   display: block;
   width: 4px;
@@ -110,10 +115,11 @@
   position: absolute;
   left: -2px;
   align-items: center;
+  transition: height 0.3s;
 }
 
-.curso-lista::before:hover {
-  height: 120px;
+.cursos .curso-lista:hover .lista::before {
+  height: 30%;
 }
 
 .lista {

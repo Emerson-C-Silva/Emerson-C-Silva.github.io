@@ -20,6 +20,21 @@
   color: #181919;
 }
 
+.menu-header a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0%;
+  background: #181919;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.menu-header a:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 950px) {
   .header {
     flex-direction: column;
@@ -30,6 +45,9 @@
     background: #f2f6ff;
     padding: 15px 10px;
     border-radius: 4px;
+  }
+  .menu-header a::after {
+    display: none;
   }
   .menu-header li {
     margin-top: 10px;
