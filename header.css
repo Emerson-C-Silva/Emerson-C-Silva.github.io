@@ -34,6 +34,9 @@
 .menu-header a:hover::after {
   width: 100%;
 }
+.button {
+  display: none;
+}
 
 @media (max-width: 950px) {
   .header {
@@ -50,6 +53,5 @@
     display: none;
   }
   .menu-header li {
-    margin-top: 10px;
   }
 }

@@ -17,3 +17,20 @@ function initScroll() {
   });
 }
 initScroll();
+
+const mobileButton = document.getElementById("button");
+const mobileMenu = document.getElementById("start-menu");
+const listaMenu = document.getElementById("menu-fixo");
+
+mobileButton.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+  listaMenu.classList.toggle("active");
+});
+
+listaMenu.addEventListener("click", () => {
+  mobileMenu.classList.remove("active");
+  listaMenu.classList.remove("active");
+});
+
+//start-menu(ID)
+//button(ID)
