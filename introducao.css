@@ -29,11 +29,15 @@
   font-size: 1rem;
   color: #b0b6bd;
 }
+   */
 
-@media (max-width: 1070px) {
+@media (max-width: 730px) {
+  .introducao {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
   .introducao-img {
-    max-width: 100%;
-    margin: auto 15px;
+    display: none;
   }
 }
-  */
