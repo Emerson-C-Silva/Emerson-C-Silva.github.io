@@ -1,9 +1,30 @@
 .introducao {
   max-width: 1040px;
-  display: block;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 2.3rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+.introducao p {
+  line-height: 1.5;
+}
+
+.introducao-img {
+}
+/*display: block;
   position: relative;
   margin: 0 auto;
   align-items: center;
+  
 }
 
 .titulo-image p {
@@ -17,3 +38,4 @@
     margin: auto 15px;
   }
 }
+  */

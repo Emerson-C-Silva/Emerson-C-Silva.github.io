@@ -38,6 +38,10 @@
   position: relative;
 }
 
+.projeto p {
+  line-height: 1.5;
+}
+
 .projeto::before {
   content: "";
   display: block;
